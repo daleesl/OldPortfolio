@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <nav>
+        <div class="left">
+            <a href="#">Dale Lee</a>
+        </div>
+
+        <div class="right">
+            <a href="#">Home</a>
+            <a href="#skills-section">Skills</a>
+            <a href="#projects-section">Projects</a>
+            <a href="#contacts-section">Contact</a>
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:daleandrewslee@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="text-section">
+                <h2 class="name">Hi, I'm <span style="color: var(--green-text)">Dale Andrew Lee<span></h2>
+            <p class="roboto-text">Hello! I'm an aspiring web developer currently learning HTML, CSS, and JavaScript. 
+                I enjoy creating websites and solving problems through code. I'm passionate about 
+                building user-friendly interfaces and bringing creative ideas to life through technology. 
+                Currently exploring modern web development frameworks and always eager to learn new skills.</p>
+
+                <div class="links">
+                    <a href="#skills-section">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects-section">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#contacts-section">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contacts</span>
+                    </a>
+
+                    
+                    
+                 
+                </div>
+            </div>
+
+
+            <div class="picture-section">
+                <img src="images/profile1.jpg" alt="Picture of Dale Andrew Lee">
+            </div>
+            
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills-section" class="skills-section">
+            
+            <h2>Skills</h2>
+            <div class="text">
+                <p>Currently focused on mastering front-end web development with HTML and CSS, while actively learning JavaScript. I enjoy creating responsive, user-friendly websites and am passionate about writing clean, efficient code. Always eager to learn new technologies and tackle exciting web development challenges.</p>
+            </div>
+            
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html.png" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css-3.png" alt="html logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/js.png" alt="html logo">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Project Section -->
+        <section id="projects-section" class="projects-section">
+            <h2>Projects</h2>
+            <div class="text">
+            <p class="roboto-text">Here are some of the web development projects I've worked on. Each project demonstrates my growing skills in HTML, CSS, and JavaScript, showcasing different aspects of front-end development from responsive design to interactive functionality.</p>
+            </div>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="images/book-inventory.png" alt="Book Inventory Project">
+                    <h3>Book Inventory</h3>
+                    <p>A simple book inventory webpage created using HTML and CSS.</p>
+                    <a class="links"href="/EXAMPLES IN FCC/book-inventory/index.html" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/registration-form.png" alt="Registration Form Project">
+                    <h3>Registration Form</h3>
+                    <p>A professional registration form layout designed with HTML and CSS.</p>
+                    <a class="links"href="/EXAMPLES IN FCC/registration-form/index.html" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/playing-cards.png" alt="Playing Cards Project">
+                    <h3>Playing Cards</h3>
+                    <p>A webpage showcasing a deck of playing cards using HTML and CSS.</p>
+                    <a class="links" href="/EXAMPLES IN FCC/cards/index.html" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/cafe-menu.png" alt="Cafe Menu Project">
+                    <h3>Cafe Menu</h3>
+                    <p>A stylish cafe menu design created with HTML and CSS.</p>
+                    <a class="links" href="/EXAMPLES IN FCC/cafe-menu/cafe-menu.html" target="_blank" rel="noopener noreferrer">
+                        <span>View Project</span>
+                    </a>
+                </div>
+            
+            
+        </section>
+
+        <!-- Contacts Section -->
+        <section id="contacts-section" class="contacts-section">
+            <div class="container">
+                <div class="text">
+                    <h2>Contact Me</h2>
+                </div>
+
+                <form action="">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+
+            </div>
+            
+        </section>
+    </main>
+
+</body>
+</html>
