@@ -40,10 +40,6 @@ nav {
     height: 80px;
     align-items: center;
     padding: 0 200px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background-color: var(--background-color);
 }
 
 nav .left a{
@@ -254,118 +250,6 @@ nav .right a:hover{
 
 /* SECTION 4: CONTACT SECTION */
 
-.contacts-section {
-    padding: 80px 200px;
-    background: linear-gradient(135deg, var(--background-color) 0%, #1a1a1a 100%);
-    color: var(--text-color);
-}
-
-.contacts-section .container {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.contacts-section .text {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.contacts-section h2 {
-    font-size: 35px;
-    margin-bottom: 15px;
-    color: var(--green-text);
-}
-
-.contacts-section h2::after {
-    content: '';
-    display: block;
-    width: 80px;
-    height: 3px;
-    background-color: var(--link-color);
-    margin: 10px auto;
-    border-radius: 2px;
-}
-
-.contacts-section form {
-    background-color: rgba(238, 239, 241, 0.05);
-    padding: 40px;
-    border-radius: 15px;
-    border: 2px solid var(--link-color);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-}
-
-.contacts-section label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;
-    color: var(--text-color);
-    font-size: 16px;
-}
-
-.contacts-section input,
-.contacts-section textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 2px solid rgba(46, 232, 106, 0.3);
-    border-radius: 8px;
-    background-color: rgba(238, 239, 241, 0.05);
-    color: var(--text-color);
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    transition: all 0.3s ease;
-}
-
-.contacts-section input:focus,
-.contacts-section textarea:focus {
-    outline: none;
-    border-color: var(--link-color);
-    background-color: rgba(238, 239, 241, 0.1);
-    box-shadow: 0 0 0 3px rgba(46, 232, 106, 0.2);
-    transform: translateY(-2px);
-}
-
-.contacts-section input::placeholder,
-.contacts-section textarea::placeholder {
-    color: rgba(238, 239, 241, 0.6);
-}
-
-.contacts-section textarea {
-    resize: vertical;
-    min-height: 120px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-}
-
-.contacts-section button {
-    background: linear-gradient(135deg, var(--link-color) 0%, var(--link-color-hover) 100%);
-    color: var(--background-color);
-    padding: 15px 40px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    width: 100%;
-    margin-top: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.contacts-section button:hover {
-    background: linear-gradient(135deg, var(--link-color-hover) 0%, var(--link-color) 100%);
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(46, 232, 106, 0.4);
-}
-
-.contacts-section button:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 15px rgba(46, 232, 106, 0.3);
-}
-
 
 /* MEDIA QUERIES */
 @media (max-width: 850px) {
@@ -412,15 +296,6 @@ nav .right a:hover{
     .projects-section .project-cards img{
         width: 120px;
         height: 150px;
-    }
-
-    /* SECTION 4: CONTACT RESPONSIVE */
-    .contacts-section {
-        padding: 60px 50px;
-    }
-    
-    .contacts-section form {
-        padding: 30px 25px;
     }
     
 }
